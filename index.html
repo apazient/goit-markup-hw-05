@@ -20,15 +20,17 @@
   </head>
   <body>
     <!--header-->
-    <header class="header-underline">
+    <header class="header">
       <div class="container flex">
         <!--navigation-->
         <nav class="main-nav">
           <!--logo-->
-          <a href="./index.html" class="logo" lang="en">Web<span class="logo-back">Studio</span></a>
+          <a href="./index.html" class="logo up" lang="en"
+            >Web<span class="logo-back">Studio</span></a
+          >
           <!--menu-->
           <ul class="list site-nav">
-            <li class="menu-item"><a href="" class="link current">Студія</a></li>
+            <li class="menu-item"><a href="" class="link link-nav current">Студія</a></li>
             <li class="menu-item">
               <a href="./portfolio.html" class="link link-nav">Портфоліо</a>
             </li>
@@ -40,8 +42,8 @@
           <!--email-->
           <li class="contact-item">
             <a href="mailto:info@devstudio.com" class="link contacts">
-              <svg class="icon" width="16" height="12">
-                <use href="./images/sprite.svg#icon-envelope"></use>
+              <svg class="svg-cont" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
@@ -49,8 +51,8 @@
           <!--telnummber-->
           <li class="contact-item">
             <a href="tel:+380961111111" class="link contacts">
-              <svg class="icon" width="10" height="16">
-                <use href="./images/sprite.svg#icon-smartphone"></use>
+              <svg class="svg-cont" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
             >
@@ -68,26 +70,18 @@
         </h1>
         <!--button order-->
         <button class="button main" data-modal-open>Замовити послугу</button>
-        <!-- modal window for the button -->
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button data-modal-close class="btn-close">
-              <img class="icon-close" src="./images/close.svg" alt="закрити" />
-            </button>
-          </div>
-        </div>
       </section>
       <!--features-->
       <section class="section">
         <div class="container">
           <!--headline feacher-->
-          <h2 class="section-titel">переваги</h2>
+          <h2 class="section-titel opacity">переваги</h2>
           <ul class="list feacher">
             <!--featcher 1-->
             <li class="item">
               <div class="icon-feacher">
                 <svg width="65" height="70">
-                  <use href="./images/sprite.svg#icon-atena"></use>
+                  <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
               <!--feacher head-->
@@ -101,7 +95,7 @@
             <li class="item">
               <div class="icon-feacher">
                 <svg width="67" height="70">
-                  <use href="./images/sprite.svg#icon-clock"></use>
+                  <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
               <!--feacher head-->
@@ -115,7 +109,7 @@
             <li class="item">
               <div class="icon-feacher">
                 <svg width="70" height="54">
-                  <use href="./images/sprite.svg#icon-diagram"></use>
+                  <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
               <!--feacher head-->
@@ -129,7 +123,7 @@
             <li class="item">
               <div class="icon-feacher">
                 <svg width="55" height="60">
-                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                  <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
               <!--feacher head-->
@@ -197,31 +191,31 @@
                 <h3 class="name">Ігор Дем'яненко</h3>
                 <p class="name pos" lang="en">Product Designer</p>
                 <ul class="social-media list">
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-instagram"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-facebook"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook" width="20" height="20"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin" width="20" height="20"></use>
                       </svg>
                     </a>
                   </li>
@@ -235,31 +229,31 @@
                 <h3 class="name">Ольга Рєпіна</h3>
                 <p class="name pos" lang="en">Frontend Developer</p>
                 <ul class="social-media list">
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-instagram"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" class=" " width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-facebook"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook" width="20" height="20"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin" width="20" height="20"></use>
                       </svg>
                     </a>
                   </li>
@@ -278,31 +272,31 @@
                 <h3 class="name">Микола Тарасов</h3>
                 <p class="name pos" lang="en">Marketing</p>
                 <ul class="social-media list">
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-instagram"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" class=" " width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-facebook"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook" width="20" height="20"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin" width="20" height="20"></use>
                       </svg>
                     </a>
                   </li>
@@ -321,31 +315,31 @@
                 <h3 class="name">Михайло Єрмаков</h3>
                 <p class="name pos" lang="en">UI Designer</p>
                 <ul class="social-media list">
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-instagram"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" class=" " width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-facebook"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook" width="20" height="20"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="media-icon">
-                    <a href="http://">
-                      <svg class="sm" width="20" height="20">
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                  <li class="media-item">
+                    <a class="media-link" href="http://">
+                      <svg class="svg svg--colored" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin" width="20" height="20"></use>
                       </svg>
                     </a>
                   </li>
@@ -362,68 +356,62 @@
           <ul class="list clients">
             <li class="item">
               <a class="client" href=""
-                ><svg widht="41" height="47">
-                  <use href="./images/sprite.svg#icon-client"></use>
-                </svg>
-              </a>
+                ><svg class="svg--colored" widht="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo"></use>
+                  </svg></a>
             </li>
             <li class="item">
               <a class="client" href=""
-                ><svg widht="40" height="52">
-                  <use href="./images/sprite.svg#icon-client1"></use>
-                </svg>
-              </a>
+                ><svg class="svg--colored" widht="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo5"></use>
+                  </svg></a>
             </li>
             <li class="item">
               <a class="client" href=""
-                ><svg widht="44" height="42">
-                  <use href="./images/sprite.svg#icon-client2"></use>
-                </svg>
-              </a>
+                ><svg class="svg--colored" widht="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo1"></use>
+                  </svg></a>
             </li>
             <li class="item">
               <a class="client" href=""
-                ><svg widht="85" height="40">
-                  <use href="./images/sprite.svg#icon-client3"></use>
-                </svg>
-              </a>
+                ><svg class="svg--colored" widht="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo2"></use>
+                  </svg></a>
             </li>
             <li class="item">
               <a class="client" href=""
-                ><svg widht="63" height="45">
-                  <use href="./images/sprite.svg#icon-client4"></use>
-                </svg>
-              </a>
+                ><svg class="svg--colored" widht="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo3"></use>
+                  </svg></a>
             </li>
             <li class="item">
               <a class="client" href=""
-                ><svg widht="94" height="43">
-                  <use href="./images/sprite.svg#icon-client5"></use>
-                </svg>
-              </a>
+                ><svg class="svg--colored" widht="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo4"></use>
+                  </svg></a>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <!--footer of page-->
-    <footer class="ground section-footer">
+    <footer class="section-footer">
       <div class="container flex">
         <div>
           <!--logo-->
-          <a href="./index.html" class="logo" lang="en">
+          <a href="./index.html" class="logo down" lang="en">
             Web<span class="logo-back-sec">Studio</span>
           </a>
           <!--contacts-->
           <address class="adr">
-            <!--address-->
-            м. Київ, пр-т Лесі Українки, 26
-            <ul class="list">
-              <li class="list-adr">
+            <ul class="adr-list list">
+              <!--address-->
+              <li class="adr-item">м. Київ, пр-т Лесі Українки, 26</li>
+              <li class="adr-item">
                 <!--email-->
                 <a href="mailto:info@devstudio.com" class="contacts-footer">info@devstudio.com</a>
               </li>
-              <li>
+              <li class="adr-item">
                 <!--telnummber-->
                 <a href="tel:+380961111111" class="contacts-footer">+38 096 111 11 11</a>
               </li>
@@ -433,31 +421,31 @@
         <section class="section-media">
           <h3 class="media-titel">Приєднуйтесь</h3>
           <ul class="social-media list">
-            <li class="media-icon footer">
-              <a href="http://">
-                <svg class="sm" width="20" height="20">
-                  <use href="./images/sprite.svg#icon-instagram"></use>
+            <li class="media-item footer">
+              <a class="media-link" href="http://">
+                <svg class="svg svg--white" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="media-icon footer">
-              <a href="http://">
-                <svg class="sm" width="20" height="20">
-                  <use href="./images/sprite.svg#icon-twitter"></use>
+            <li class="media-item footer">
+              <a class="media-link" href="http://">
+                <svg class="svg svg--white" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="media-icon footer">
-              <a href="http://">
-                <svg class="sm" width="20" height="20">
-                  <use href="./images/sprite.svg#icon-facebook"></use>
+            <li class="media-item footer">
+              <a class="media-link" href="http://">
+                <svg class="svg svg--white" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="media-icon footer">
-              <a href="http://">
-                <svg class="sm" width="20" height="20">
-                  <use href="./images/sprite.svg#icon-linkedin"></use>
+            <li class="media-item footer">
+              <a class="media-link" href="http://">
+                <svg class="svg svg--white" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
@@ -465,6 +453,16 @@
         </section>
       </div>
     </footer>
+    <!-- modal window for the button -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close class="btn-close">
+          <svg class="icon-close" width="11" height="11">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
